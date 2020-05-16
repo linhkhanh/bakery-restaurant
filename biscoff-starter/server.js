@@ -1,7 +1,6 @@
 const express = require('express');
-const methodOverride = require('method-override')
+const methodOverride = require('method-override');
 const app = express();
-const path = require('path');
 const port = 5000;
 
 app.use(express.static('public'));
