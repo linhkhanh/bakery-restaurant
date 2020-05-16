@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/main.css" />
+	</head>
+	<body>
+        <nav>
+            <a href="/" class="home">HOME</a>
+        </nav>
+		<h1 class="edit">Edit Cake Page</h1>
+          <form action="/bakedgoods/<%=index%>?_method=PUT" method="POST" class="edit-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="<%=cake.name%>" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="text" name="price" id="price" value="<%=cake.price%>" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="image">Image</label>
+                <input type="text" name="image" id="image" value="<%=cake.image%>" class="form-control" />
+            </div>
+    
+            <input type="submit" class="btn btn-primary" value="Edit Cake">
+        </form>
+        </body>
+	</body>
+</html>

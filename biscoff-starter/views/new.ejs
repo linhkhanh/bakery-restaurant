@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/main.css" />
+</head>
+
+<body>
+    <h1 class='new'>New Cake Page</h1>
+    <form action="/bakedgoods" method="POST" class="create">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Name of new cake" required="true"/>
+        </div>
+        <div class="form-group">
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" class="form-control" placeholder="Price of new cake" required="true" />
+        </div>
+        <div class="form-group">
+            <label for="image">Image</label>
+            <input type="text" name="image" id="image" class="form-control" placeholder="Image of new cake" required="true"/>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Create Cake">
+    </form>
+</body>
+
+</html>

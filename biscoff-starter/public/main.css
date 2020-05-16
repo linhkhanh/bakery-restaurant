@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Squada+One&display=swap');
+body {
+    background-image: url('https://lh3.googleusercontent.com/proxy/vQhOE_JAzeS_DXeVtSsr3x40LOdkLsyGznnUNt_NEd_Hjg8636AY_cxQffcDgYTh9gY1lFFbACBmYZTnexZV7IDtzjOvCrqDrvZq6DQ8Jp-G-O5ROk_jTA');
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.restaurant {
+    text-align: center;
+}
+.restaurant > a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    background-color: darkslategray;
+    padding: 2%;
+}
+a:hover {
+    color: black;
+}
+.bakery {
+    margin-top: 20%;
+    font-size: 100px;
+    font-family: 'Squada One', cursive;
+}
+.create {
+    width: 40%;
+    margin: auto;
+    font-size: 24px;
+}
+.new {
+    margin-top: 7%;
+    font-size: 50px;
+    text-align: center;
+}
+nav {
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 24px;
+}
+.edit {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 50px;
+}
+.edit-form {
+    width: 50%;
+    margin: auto;
+    font-size: 24px;
+}

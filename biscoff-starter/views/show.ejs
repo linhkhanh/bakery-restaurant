@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cakes Show</title>
+    <link rel="stylesheet" href="/show.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="back">
+            <a href="/">HOME  </a>
+            <a href="/bakedgoods">ALL PRODUCTS  </a>
+            <a href="/bakedgoods/<%=id%>/edit">EDIT</a>
+        </div>
+        <h1>Biscoff Bakery</h1>
+    </nav>
+    <div class='cake'>
+        <img src='<%= cake.image; %>'>
+        <h3><%= cake.name; %> </h3>
+        <p>Price: <%= cake.price %></p>
+    </div>
+</body>
+
+</html>
